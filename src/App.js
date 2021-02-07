@@ -74,7 +74,6 @@ function App() {
             >
               Get Started <ArrowRightOutlined />
             </Button>
-            <ClearDataButton />
           </>
         ) : (
           // redirect
