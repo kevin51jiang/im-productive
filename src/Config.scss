@@ -1,0 +1,39 @@
+.config-page {
+  code {
+    display: inline-block;
+
+    background-color: lightgray;
+    border-radius: 4px;
+    padding: 1px 4px;
+    color: black;
+  }
+  .link-container {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 1rem;
+    li {
+      margin-bottom: 1rem;
+      white-space: nowrap;
+      list-style-type: none;
+      input {
+        margin: 0 1rem;
+        min-width: 250px;
+      }
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+
+    .add-link {
+      text-align: right;
+    }
+  }
+  .control-bar {
+    button {
+      margin: 0.5rem;
+    }
+  }
+  .visits {
+    margin: 2rem;
+  }
+}
